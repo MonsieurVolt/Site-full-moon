@@ -1,0 +1,266 @@
+body {
+	background-color: #c7c7c7
+}
+.globalsheet {
+	width: 930px;
+	margin: auto;
+	background-color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px
+}
+section h2 {
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	color: #00adb3;
+}
+a {
+	text-decoration: none;
+	font-family: "Arial", sans-serif;
+}
+section a {
+	color: #00adb3
+}
+section p {
+	font-style: "Arial", sans-serif;
+	font-size: 16px;
+	color: #636262;
+}
+.logo {
+	margin-bottom: 15px;
+}
+nav   {
+	background-color: #00adb3;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 14px;
+}
+nav a {
+	text-transform: uppercase;
+	color: white;
+	
+}
+nav a:hover {
+	color: black
+}
+.banner {
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 15px;
+	width: 890px;
+	height: 350px;
+	position: relative;
+	background-image: url("header.jpg");
+	background-position: 12px;
+	background-repeat: no-repeat;
+	border: 1px solid #c7c7c7;
+
+
+}
+.bdes {
+	position: absolute;
+	width: 850px;
+	bottom: 11px;
+	left: 13px;
+	background-color: rgba(0,0,0,0.7);
+	height: 45px;
+	color: white;
+	padding-top: 32px;
+	padding-left: 15px;
+	font-size: 20px;
+	font-family: "Arial"
+	
+}
+.sban {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 25px;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+.sban p {
+	width: 110px;
+	height: 105px;
+	border: 2px solid #c7c7c7;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.sban img {
+	margin-right: 15px;
+	
+}
+.corp {
+	display: flex;
+	border-top:2px dashed #00adb3;
+}
+.art {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	padding-bottom: 15px;
+}
+article section {
+	background-color: #e8e8e8;
+	width: 260px;
+	margin-left: 15px;
+	margin-top: 18px;
+	padding-left: 10px;
+	padding-bottom: 8px;
+	padding-right: 5px;
+}
+article section:nth-child(5){
+	width: 545px;
+}
+#tweet {
+	width: 545px;
+	height: 35px;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+
+}
+.noir {
+	color: white;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	bottom: 10px;
+}
+.btn {
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin-top: 10px;
+	margin-right: 15px;
+	background-color: #00adb3;
+	color: white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	text-align: center;
+	
+
+}
+#exp {
+	width: 545px;
+	text-align: center;
+	font-family: Comic Sans MS, sans-serif;
+}
+aside {
+	position: relative;
+	right: 15px
+} 
+aside h2 {
+	background-color: #00adb3;
+	height: 40px;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 5px;
+}
+.imm {
+	width: 315px;
+	height: 200px;
+	border: 1px solid #e8e8e8;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.jsp {
+	display: flex;
+	background-color: #e8e8e8;
+	height: 180px;
+	text-align: center;
+}
+.jsp p{
+	font-style: "Arial", sans-serif;
+	font-size: 15px;
+	margin-top: 25px; 
+}
+.jsp img{
+	position: relative;
+	bottom: 25px;
+}
+.div {
+	display: flex;
+	justify-content: space-between;
+	background-color: #00adb3;
+	height: 50px;
+	margin-top: 20px;
+}
+.div h3 {
+	font-size: 20px;
+	font-family: "Arial", sans-serif;
+	color: white;
+	margin-left: 10px;
+	position: relative;
+	bottom: 5px;
+}
+.btnt{
+	display: block;
+	width: 100px;
+	height: 25px;
+	margin-top: 13px;
+	margin-right: 13px;
+	background-color: white;
+	color:  #00adb3 ;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding-top: 5px;
+	text-align: center;
+}
+.jspq {
+	display: flex;
+	background-color: #e8e8e8;
+	height: 180px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.jspq p{
+	font-style: "Arial", sans-serif;
+	font-size: 15px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	
+}
+.jspq img{
+	position: relative;
+	bottom: 25px;
+}
+.foot {
+	background-color: rgba(0,0,0,0.6);
+	height: 40px;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	padding-left: 10px;
+	color: white;
+}
+.foot a {
+	color: #00adb3;
+	padding-left: 5px;
+}
+.ti img {
+	margin-right: 5px
+}
+@media all and (max-width: 1024px)
+{
+	.globalsheet {
+		width: auto;
+	}
+	.banner {
+		display: none;
+	}
+	aside {
+		text-align: center;
+	}
+}
